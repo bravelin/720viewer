@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // flag为true表明是在小程序中
 function initViewer (flag) {
     let navBarOptions
-    if (flag) {
+    if (!flag) {
         navBarOptions = ['autorotate', 'zoom', 'download', 'markers', 'caption', 'fullscreen']
     } else {
         navBarOptions = ['autorotate', 'zoom', 'download', 'markers', {
