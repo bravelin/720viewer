@@ -44,7 +44,7 @@ function initViewer (flag) {
         container: document.getElementById('app'),
         time_anim: false,
         default_fov: 90,
-        navbar: ['autorotate', 'download', 'markers', 'caption', 'gyroscope', 'stereo', 'fullscreen']
+        navbar: ['autorotate', 'download', 'caption', 'gyroscope']
     })
     if (flag) {
         document.getElementById('back-button').style.zIndex = 99999
